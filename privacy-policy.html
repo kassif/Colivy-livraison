@@ -6,54 +6,106 @@
   <title>Politique de Confidentialité - Colivy</title>
   <style>
     body {
-      font-family: sans-serif;
-      line-height: 1.6;
-      margin: 2em;
+      font-family: 'Arial', sans-serif;
+      line-height: 1.8;
+      max-width: 800px;
+      margin: 2em auto;
+      padding: 0 20px;
       color: #333;
     }
     h1 {
       color: #0055aa;
+      border-bottom: 2px solid #0055aa;
+      padding-bottom: 10px;
+    }
+    h2 {
+      color: #0055aa;
+      margin-top: 1.5em;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    strong {
+      color: #0055aa;
+    }
+    .last-updated {
+      font-style: italic;
+      color: #666;
     }
   </style>
 </head>
 <body>
-  <h1>Politique de Confidentialité</h1>
+  <h1>Politique de Confidentialité de Colivy</h1>
+  <p class="last-updated">Dernière mise à jour : 6 juin 2025</p>
 
-  <p>Dernière mise à jour : 6 juin 2025</p>
+  <p>Cette politique explique comment <strong>Colivy</strong> ("nous", "notre application") traite vos données personnelles. En utilisant l'application, vous acceptez les termes décrits ci-dessous.</p>
 
-  <p>Cette politique de confidentialité décrit comment l'application <strong>Colivy</strong> collecte, utilise et protège les informations personnelles de ses utilisateurs.</p>
-
-  <h2>1. Informations collectées</h2>
-  <p>L'application peut collecter les types de données suivants :</p>
+  <h2>1. Données Collectées</h2>
+  <p>Nous collectons :</p>
   <ul>
-    <li><strong>Données de localisation :</strong> utilisées uniquement pour afficher votre position sur la carte et permettre les livraisons ou services liés à votre position.</li>
-    <li><strong>Données Firebase :</strong> telles que l’authentification (email, numéro de téléphone) et les informations stockées dans Firestore (commandes, profils, etc.).</li>
-    <li><strong>Données analytiques :</strong> via Firebase Analytics, pour comprendre comment l’application est utilisée et l’améliorer.</li>
+    <li><strong>Données de compte</strong> : Email, numéro de téléphone (via Firebase Authentication).</li>
+    <li><strong>Localisation</strong> : Uniquement avec votre consentement, pour activer les fonctionnalités géolocalisées (livraisons, etc.).</li>
+    <li><strong>Données d'usage</strong> : Interactions avec l'application (via Firebase Analytics).</li>
+    <li><strong>Contenu utilisateur</strong> : Commandes, messages, profils (stockés dans Firestore).</li>
   </ul>
 
-  <h2>2. Utilisation des données</h2>
-  <p>Les données collectées sont utilisées pour :</p>
+  <h2>2. Finalités du Traitement</h2>
+  <p>Vos données servent à :</p>
   <ul>
-    <li>Fournir les fonctionnalités principales de l'application</li>
-    <li>Améliorer l'expérience utilisateur</li>
-    <li>Assurer la sécurité des utilisateurs</li>
-    <li>Analyser les performances de l'application</li>
+    <li>Exécuter vos commandes et livraisons.</li>
+    <li>Améliorer l'application et prévenir les abus.</li>
+    <li>Envoyer des notifications (si activées).</li>
+    <li>Répondre aux obligations légales.</li>
   </ul>
 
-  <h2>3. Partage des données</h2>
-  <p>Nous ne partageons vos données personnelles avec aucun tiers, sauf si cela est nécessaire pour fournir nos services (par exemple : Firebase, Google Maps).</p>
+  <h2>3. Bases Légales</h2>
+  <p>Le traitement repose sur :</p>
+  <ul>
+    <li>Votre <strong>consentement</strong> (pour la localisation et les analytics).</li>
+    <li>L'<strong>exécution contractuelle</strong> (pour les commandes).</li>
+    <li>Nos <strong>intérêts légitimes</strong> (sécurité, amélioration de l'app).</li>
+  </ul>
 
-  <h2>4. Stockage et sécurité</h2>
-  <p>Les données sont stockées de manière sécurisée sur Firebase (Google Cloud). L’application utilise des mécanismes de sécurité pour protéger vos informations.</p>
+  <h2>4. Partage des Données</h2>
+  <p>Vos données peuvent être transmises à :</p>
+  <ul>
+    <li><strong>Prestataires techniques</strong> : Firebase (Google), hébergeurs.</li>
+    <li><strong>Partenaires de livraison</strong> (si applicable).</li>
+    <li><strong>Autorités</strong> : Si requis par la loi.</li>
+  </ul>
+  <p><em>Aucune vente à des tiers à des fins commerciales.</em></p>
 
-  <h2>5. Vos droits</h2>
-  <p>Vous pouvez à tout moment demander la suppression de vos données ou contacter le développeur via le Play Store pour toute demande concernant la vie privée.</p>
+  <h2>5. Sécurité</h2>
+  <p>Nous utilisons :</p>
+  <ul>
+    <li>Chiffrement des données (Firebase).</li>
+    <li>Contrôles d'accès stricts.</li>
+  </ul>
 
-  <h2>6. Modifications</h2>
-  <p>Cette politique peut être mise à jour à l’avenir. Toute modification importante sera communiquée dans l’application.</p>
+  <h2>6. Durée de Conservation</h2>
+  <p>Vos données sont conservées :</p>
+  <ul>
+    <li>Jusqu'à suppression de votre compte (max. 1 an après inactivité).</li>
+    <li>Données facturation : 10 ans (obligation légale).</li>
+  </ul>
 
-  <h2>7. Contact</h2>
-  <p>Pour toute question concernant cette politique de confidentialité, veuillez nous contacter via la fiche de l'application sur le Google Play Store.</p>
+  <h2>7. Vos Droits (RGPD)</h2>
+  <p>Vous pouvez :</p>
+  <ul>
+    <li>Accéder, rectifier ou supprimer vos données.</li>
+    <li>Retirer votre consentement (paramètres de l'app).</li>
+    <li>Portabilité des données (format lisible).</li>
+    <li>Déposer une réclamation auprès d'une autorité (CNIL).</li>
+  </ul>
+  <p>Pour exercer ces droits, contactez-nous via : <strong>kassiferdi271@gmail.com</strong>.</p>
 
+  <h2>8. Modifications</h2>
+  <p>Les mises à jour seront notifiées dans l'application. La version actuelle est toujours disponible sur cette page.</p>
+
+  <h2>9. Contact</h2>
+  <p>Responsable de traitement :<br>
+  <strong>Équipe Colivy</strong><br>
+  Email : <strong>kassiferdi271@gmail.com</strong><br>
+ 
 </body>
 </html>
